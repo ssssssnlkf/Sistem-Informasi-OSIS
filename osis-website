@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Informasi OSIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>SISTEM INFORMASI OSIS</h1>
+    <p>MAS Plus Darul Hufadz</p>
+  </header>
+
+  <nav>
+    <a href="#struktur">Struktur</a>
+    <a href="#tugas">Tugas & Fungsi</a>
+    <a href="#anggota">Anggota</a>
+  </nav>
+
+  <section id="hero">
+    <h2>Selamat Datang di Sistem Informasi OSIS</h2>
+    <p>Media informasi organisasi siswa sekolah.</p>
+  </section>
+
+  <!-- Struktur Organisasi -->
+  <section id="struktur">
+    <h2>Struktur Organisasi OSIS</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>Ketua Umum</h3>
+        <p>Memimpin seluruh kegiatan organisasi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Wakil Ketua Umum</h3>
+        <p>Membantu ketua dalam menjalankan tugas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sekretaris</h3>
+        <p>Mengelola administrasi organisasi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Bendahara</h3>
+        <p>Mengelola keuangan OSIS.</p>
+      </div>
+
+      <div class="card">
+        <h3>Divisi Kepemimpinan</h3>
+        <p>Memastikan siswa/i MAS Darul Hufadz taat kepada tata tertib sekolah.</p>
+      </div>
+
+      <div class="card">
+        <h3>Divisi Kerohanian</h3>
+        <p>Memimpin kegiatan keagamaan di MAS Plus Darul Hufadz.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Hubungan Internal</h3>
+        <p>Menjaga hubungan baik antar sesama anggota OSIS.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Hubungan Eksternal</h3>
+        <p>Menjalin komunikasi dan menjaga hubungan baik dengan pihak luar.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Media Informasi</h3>
+        <p>Menjalin komunikasi dan menjaga hubungan baik dengan pihak luar.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Fundraising</h3>
+        <p>Mencari sumber daya untuk menunjang jalannya organisasi.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Harmoni Siswa</h3>
+        <p>Divisi yang menampung minat bakat dari siswa/i.</p>
+      </div>
+
+<div class="card">
+        <h3>Divisi Tata astri sekolah</h3>
+        <p>Memelihara kebersihan dan kelengkapan fasilitas sekolah.</p>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Tugas Pokok dan funsi -->
+  <section id="tugas">
+    <h2>Tugas Pokok dan Fungsi</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Jabatan</th>
+          <th>Tugas Pokok</th>
+          <th>Fungsi</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Ketua Umum</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Memastikan seluruh program kerja terlaksana, terstruktur dan terjadwal dengan baik</td>
+          <td>Menetapkan kebijakan atas hasil musyawarah</td>
+          <td>Memimpin dan mengadakan rapat</td>
+          <td>Mengevaluasi setiap kegiatan</td>
+          <td>Menggunakan GBHK sebagai haluan kerja OSIS</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Wakil Ketua Umun</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Membersamai ketua dalam menetapkan kebijakan</td>
+          <td>Memberikan saran pada saat ketua mengambil keputusan</td>
+          <td>Menggantikan ketua jika berhalangan hadir</td>
+          <td>Membantu ketua dalam melaksanakan tugasnya</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Sekretaris</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Membuat file-file penting</td>
+          <td>Menyimpan dan menjaga inventaris OSIS dengan baik</td>
+          <td>Memastikan kegiatan-kegiatan yang telah dijadwalkan/disepakati pada saat penyusunan kalender kepengurusan terlaksana</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Bendahara</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Memastikan seluruh pengurus OSIS 25/26 memenuhi salah satu kewajibannya (membayar kas)</td>
+          <td>Mendata pengeluaran dan pemasukan secara keseluruhan</td>
+          <td>Membantu penyusunan RAB</td>
+          <td>Mengelola keuangan dengan baik</td>
+          <td>Menyimpan rapih bukti-bukti transaksi</td>
+
+
+        </tr>
+
+        <tr>      
+          <td>Divisi Kepemimpinan</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Memastikan laporan pelanggaran sesuai dengan apa adanya, dan memiliki bukti yang konkret</td>
+          <td>Memberikan sanksi terhadap siswa/i yang melanggar aturan dengan sebagaimana mestinya</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Divisi Kerohanian</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Mengkoordinir kegiatan-kegiatan yang dilaksanakan di masjid</td>
+          <td>Memastikan seluruh pengurus OSIS menjalankan tugasnya dengan baik dan benar ketika piket Dhuha</td>
+          <td>Memberikan sanksi terhadap Siswa/i yang melanggar aturan sebagaimana mestinya (bekerja sama dengan Div.Kepemimpinan)</td>
+          <td>Menyiapkan hadits</td>
+          <td>Membuat jadwal imam</td>
+          <td>Membuat absen shalat</td>
+          <td>Merekap absen shalat dan tanggal halangan(untuk akhwat)</td>
+          <td>Berkolaborasi dengan Div.PHBI/N untuk mengadakan acara-acara keagamaan</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Divisi Hbungan Eksternal </td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang terlah dirancang</td>
+          <td>Menggunakan bahasa yang baik dan mudah dipahami ketika akan menyampaikan informasi</td>
+          <td>Menyebarluaskan informasi</td>
+          <td>Memastikan seluruh informasi yang akan disampaikan sudah di sepakati/fiks</td>
+          <td>Merekap pemasukan infak jumat(Bersama Bendahara Umum)</td>
+
+
+       </tr>
+
+        <tr>
+          <td>Divisi Hubungan Internal</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Membangun silaturahmi yang baik dalam kepengurusan OSIS 24/25</td>
+          <td>Menjadi penengah ketika terjadi konflik internal (antar sesama pengurus)</td>
+          
+
+        </tr>
+
+        <tr>
+          <td>Divisi Media Informasi</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Membuat poster peringatan beberapa hari sebelum memperingati (Bersama PHBI/N)</td>
+          <td>Menyediakan template-template untuk konten, poster, baner, name tag dll(agar tidak terburu-buru)</td>
+          <td>Mengelola akun Sosial Media MASPDH dengan cara yang inovatif</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Divisi Fundraising</td>
+          <td>Membuat proposal program kerja</td>
+          <td>Melaksanakan program kerja yang telah dirancang</td>
+          <td>Mengelola keuangan dengan baik agar dapat menghasilkan laba</td>
+          <td>Memastikan seluruh Siswa/i MASPDH memiliki atribut yang lengkap</td>
+          <td>Memastikan Siswa/i MASPDH ikut berpatisipasi dalam program kerja OSIS 24/25 (contoh:membeli buku dzikir pagi)</td>
+
+
+        </tr>
+
+        <tr>
+          <td>Divisi Harmoni Siswa</td>
+          <td>Membuat jadwal pengingat untuk peringatan hari besar Islam/Nasional</td>
+          <td>Mengadakan kegiatan untuk Perayaan Hari Besar Islam/Nasional (berkolaborasi dengan divisi-divisi yang bersangkutan)</td>
+          <td>Mengadakan/mengaktifkan ekskul</td>
+          <td>Menjadi penanggung jawab (sarana) dalam penyaluran bakat Siswa/i MASPDH</td>
+          <td>Memastikan Siswa/i MASPDH ikut berpatisipasi dalam program kerja OSIS 24/25 (contoh:membeli buku dzikir pagi)</td>
+
+        </tr>
+
+        <tr>
+          <td>Divisi Tata Asri</td>
+          <td>Menciptakan lingkungan yang nyaman, dengan menjaga kebersihan juga kerapihan</td>
+          <td>Memastikan siswa/i MASPDH mencemari lingkungan atau fasilitas sekolah</td>
+          <td>Menjadi penanggung jawab atas sarana prasarana atau fasilitas yang disediakan oleh madrasah</td>
+
+
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Data Anggota -->
+  <section id="anggota">
+    <h2>Data Anggota OSIS</h2>
+
+    <input type="text" id="searchInput" placeholder="Cari anggota...">
+
+    <ul id="memberList">
+      <li>Fisal Fahri Fadilah - Ketua OSIS</li>
+      <li>Faroh Ramahdani - Wakil Ketua</li>
+      <li>Rubi Hikaru Mahendra- Sekretaris</li>
+      <li>Keyla Puspita Ramadhani-Wakil Sekretaris</li>
+      <li>Syifa Azarien - Bendahara</li>
+      <li>Alvia Aulia Rahman - Bendahara</li>
+      <li>Aisyah Nurrohman Althafunnisa -Divisi Kepemimpinan </li>
+      <li>Sofia Sofwah Al-Muthmainnah -Divisi Kepemimpinan </li>
+      <li>Maisya Naila Nurafifah -Divisi Kerohanian </li>
+      <li>Zahra Nurul Silmi -Divisi Kerohanian </li>
+      <li>Muhammad Raffa Firjatullah Pranaja -Divisi Hubungan Internal </li>
+      <li>Cecilia Febryan Dinata -Divisi Hubungan Internal </li>
+      <li>Luthvi Lailatul Muthmainnah -Divisi Hubungan Eksternal </li>
+      <li>Kevin Parker -Divisi Hubungan Eksternal </li>
+      <li>Risya Tazkia Nafisah -Divisi Media Informasi </li>
+      <li>Muhammad Abisali -Divisi Media Informasi </li>
+      <li>Sahda Risti Rahmadani -Divisi Fundraising </li>
+      <li>Medina Pujti Arifah -Divisi Fundraising </li>
+      <li>Athira Haiba Gusmali -Divisi Harmoni Siswa </li>
+      <li>Inka Novia Ganesha -Divisi Harmoni Siswa </li>
+      <li>Lutpi Amelia -Divisi Tata Asri Sekolah </li>
+      <li>Nabila Aprilia -Divisi Tata Asri Sekolah </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Sistem Informasi OSIS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right, #1976d2, #42a5f5);
+    color:white;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:12px 20px;
+    border:none;
+    background:white;
+    color:#1976d2;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.pengumuman{
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+document.getElementById("btnInfo").addEventListener("click", function(){
+
+    alert("Selamat datang di Sistem Informasi OSIS!");
+
+});
