@@ -4,7 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistem Informasi OSIS</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+
+  body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+  }
+
+  header{
+    height:500px;
+
+    background:
+    linear-gradient(
+    rgba(15,23,42,0.6),
+    rgba(15,23,42,0.6)
+    ),
+    url("");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  nav{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:20px;
+  }
+
+  nav a{
+    background:white;
+    color:#0f172a;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+  nav a:hover{
+    background:#ec4899;
+    color:white;
+  }
+
+  #hero{
+    text-align:center;
+    padding:40px;
+  }
+
+  .card-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+  }
+
+  .card{
+    width:300px;
+    background:rgba(236,72,153,0.15);
+    border:1px solid rgba(236,72,153,0.4);
+    border-radius:20px;
+    padding:20px;
+  }
+
+  section{
+    padding:40px;
+  }
+
+  h2{
+    text-align:center;
+  }
+
+  footer{
+    text-align:center;
+    padding:20px;
+  }
+
+  </style>
+
+</head>
 </head>
 <body>
 
@@ -26,69 +110,125 @@
 
   <!-- Struktur Organisasi -->
   <section id="struktur">
-    <h2>Struktur Organisasi OSIS</h2>
+    <h2>Struktur Organisasi & Pengurus OSIS</h2>
 
     <div class="card-container">
 
       <div class="card">
         <h3>Ketua Umum</h3>
-        <p>Memimpin seluruh kegiatan organisasi.</p>
+        <p>Faisal Fahri Fadilah.</p>
       </div>
 
       <div class="card">
         <h3>Wakil Ketua Umum</h3>
-        <p>Membantu ketua dalam menjalankan tugas.</p>
+        <p>Faroh Ramadhani.</p>
       </div>
 
       <div class="card">
-        <h3>Sekretaris</h3>
-        <p>Mengelola administrasi organisasi.</p>
+        <h3>Sekretaris Umum</h3>
+        <p>Ruby Hikaru Mahendra.</p>
+      </div>
+
+       <div class="card">
+        <h3>Wakil Sekretaris Umum</h3>
+        <p>Keyla Puspita Ramadhani.</p>
       </div>
 
       <div class="card">
-        <h3>Bendahara</h3>
-        <p>Mengelola keuangan OSIS.</p>
+        <h3>Bendahara Umum</h3>
+        <p>Syifa Azarien Faustina.</p>
       </div>
 
       <div class="card">
-        <h3>Divisi Kepemimpinan</h3>
-        <p>Memastikan siswa/i MAS Plus Darul Hufadz taat kepada tata tertib sekolah.</p>
+        <h3>Wakil Bendahara Umum</h3>
+        <p>Alvia Aulia Rahman.</p>
       </div>
+
 
       <div class="card">
-        <h3>Divisi Kerohanian</h3>
-        <p>Memimpin kegiatan keagamaan di MAS Plus Darul Hufadz.</p>
-      </div>
+  <h3>Divisi Kepemimpinan</h3>
+  <p><strong>Kadiv:</strong> Aisyah Nurrahmah Althafunnisa</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Sofia Sofwah Al-Mutmainnah</li>
+    <li>Azriel Mushowwiru Kurnia</li>
+    <li>Delis Siti Mariam</li>
+  </ul>
+</div>
+
+      
+<div class="card">
+  <h3>Divisi Kerohanian</h3>
+  <p><strong>Kadiv:</strong> Maisya Naila Nurafifah</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Zahra Nurul Silmi</li>
+    <li>Bunga Fitria</li>
+  </ul>
+</div>
+
+      
+<div class="card">
+  <h3>Divisi Hubungan Internal</h3>
+  <p><strong>Kadiv:</strong> Muhammad Rafa Firjatullah Pranaja</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Cecilia Febryan Dinata</li>
+  </ul>
+</div>
+
+      <div class="card">
+  <h3>Divisi Hubungan Eksternal</h3>
+  <p><strong>Kadiv:</strong> Luthvi Lailatul Mutmainnah</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Kevin Parker</li>
+  </ul>
+</div>
+
+      <div class="card">
+  <h3>Divisi Media Informasi</h3>
+  <p><strong>Kadiv:</strong> Risya Tazkia Nafisah</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Tsaniyah Nashifah Nur Azizah</li>
+    <li>Muhammad Abisali</li>
+  </ul>
+</div>
+
+      
+<div class="card">
+  <h3>Divisi Fundraising</h3>
+  <p><strong>Kadiv:</strong> Sahda Risti Rahmadani</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Medina Pujti Arifah</li>
+    <li>Salma Aulia Dani Pratama</li>
+  </ul>
+</div>
+
+      
+<div class="card">
+  <h3>Divisi Harmoni Siswa</h3>
+  <p><strong>Kadiv:</strong> Athira Haiba Gusmali</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Inka Novia Ganesa</li>
+    <li>Nikeisha Farah Afiya</li>
+    <li>Muhammad Tri Pasha</li>
+  </ul>
+</div>
 
 <div class="card">
-        <h3>Divisi Hubungan Internal</h3>
-        <p>Menjaga hubungan baik antar sesama anggota OSIS.</p>
-      </div>
-
-<div class="card">
-        <h3>Divisi Hubungan Eksternal</h3>
-        <p>Menjalin komunikasi dan menjaga hubungan baik dengan pihak luar.</p>
-      </div>
-
-<div class="card">
-        <h3>Divisi Media Informasi</h3>
-        <p>Menjalin komunikasi dan menjaga hubungan baik dengan pihak luar.</p>
-      </div>
-
-<div class="card">
-        <h3>Divisi Fundraising</h3>
-        <p>Mencari sumber daya untuk menunjang jalannya organisasi.</p>
-      </div>
-
-<div class="card">
-        <h3>Divisi Harmoni Siswa</h3>
-        <p>Divisi yang menampung minat bakat dari siswa/i.</p>
-      </div>
-
-<div class="card">
-        <h3>Divisi Tata astri sekolah</h3>
-        <p>Memelihara kebersihan dan kelengkapan fasilitas sekolah.</p>
-      </div>
+  <h3>Divisi Tata Asri</h3>
+  <p><strong>Kadiv:</strong> Lutpi Amelia</p>
+  <p><strong>Anggota:</strong></p>
+  <ul>
+    <li>Siti Hazza Aulia Fitriyani</li>
+    <li>Nayla Nayyara Azzahra</li>
+    <li>Dine Rijky Amelia</li>
+  </ul>
+</div>
 
 
     </div>
@@ -246,9 +386,9 @@
     </table>
   </section>
 
-  <!-- Data Anggota -->
-  <section id="anggota">
-    <h2>Data Anggota OSIS</h2>
+  <!-- Dokumentasi -->
+  <section id="dokumentasi">
+    <h2>Dokumentasi Acara OSIS</h2>
 
     <input type="text" id="searchInput" placeholder="Cari anggota...">
 
