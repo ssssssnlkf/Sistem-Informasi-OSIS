@@ -81,11 +81,14 @@
     text-align:center;
   }
 
-  footer{
-    text-align:center;
-    padding:20px;
-  }
+  .content-section{
+  display:none;
+}
 
+.content-section.active{
+  display:block;
+}
+    
   </style>
 
 </head>
@@ -97,9 +100,9 @@
 </header>
 
 <nav>
-<a href="#struktur">Struktur Organisasi</a>
-<a href="#tugas">Tugas Pokok & Fungsi</a>
-<a href="#dokumentasi">Dokumentasi</a>
+<a href="#" onclick="showSection('struktur')">Struktur Organisasi</a>
+<a href="#" onclick="showSection('tugas')">Tugas Pokok & Fungsi</a>
+<a href="#" onclick="showSection('dokumentasi')">Dokumentasi</a>
 </nav>
 
 <section id="hero">
