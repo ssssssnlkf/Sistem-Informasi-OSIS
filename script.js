@@ -1,5 +1,3 @@
-alert("JS berhasil jalan!");
-
 function showSection(id){
 
   const sections =
@@ -13,5 +11,3 @@ function showSection(id){
     .getElementById(id)
     .classList.add("active");
 }
-
-showSection("struktur");
